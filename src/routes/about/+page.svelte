@@ -1,7 +1,6 @@
 <script lang="ts">
   import Header from '../Header.svelte';
   import Footer from '../Footer.svelte'
-  import Cursor from '../Cursor.svelte'
   import { base } from '$app/paths'
 
   let imageSlide: HTMLDivElement

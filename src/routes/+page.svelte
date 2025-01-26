@@ -1,5 +1,4 @@
 <script lang="ts">
-    import Cursor from './Cursor.svelte'
     import Header from './Header.svelte'
     import { onMount } from 'svelte'
     import { base } from '$app/paths';
@@ -23,8 +22,6 @@
         if(next) (next.children[0] as HTMLElement).style.backgroundPositionX = "0px";
   
         const isMobile = window.innerHeight > window.innerWidth;
-  
-        if(currImage === 0) behavior = 'auto';
   
         curr.scrollIntoView({behavior: `${behavior}`, block: 'nearest', inline: 'center' })
         const w = window.innerWidth
@@ -54,10 +51,8 @@
       const el = e.currentTarget as HTMLElement;
   
       if(el.dataset.name === 'left') {
-        if(currImage === 0) behavior = 'auto'
         currImage = currImage === 0 ? numberOfImages - 1 : currImage - 1
       } else {
-        if(currImage === numberOfImages - 1) behavior = 'auto'
         currImage = (currImage + 1) % numberOfImages
       }
   
@@ -104,12 +99,12 @@
       </div>
     </div>
     <div class="pagination absolute hidden lg:flex items-center justify-center z-10">
-      <button  on:click={handleClick} data-name='left' class='transition-colors duration-200 backdrop-blur-sm bg-white bg-opacity-10 hover:bg-asa-red'>
+      <button  on:click={handleClick} aria-label="left-button" data-name='left' class='transition-colors duration-200 backdrop-blur-sm bg-white bg-opacity-10 hover:bg-asa-red'>
         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M12.6667 3.33325L6 9.99992L12.6667 16.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
       </button>
-      <button on:click={handleClick} data-name='right' class='transition-colors duration-200 backdrop-blur-sm bg-white bg-opacity-10 hover:bg-asa-red'>
+      <button on:click={handleClick} aria-label="right-button" data-name='right' class='transition-colors duration-200 backdrop-blur-sm bg-white bg-opacity-10 hover:bg-asa-red'>
         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M7.33333 3.33325L14 9.99992L7.33333 16.6666" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
@@ -123,8 +118,8 @@
   
   <style lang="scss">
   .main {
-    left: max(20px, px2vw(50));
-    bottom: max(20px, px2vw(50));
+    left: 20px;
+    bottom: 20px;
   
     &-title {
       .name {
