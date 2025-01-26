@@ -2,7 +2,8 @@
   /**
    * @type {string}
    */
-   export let page;
+  export let page;
+  import { base } from '$app/paths';
   /**
    * @type {HTMLDivElement}
    */
@@ -41,31 +42,31 @@
 <header class='text-white z-[999] relative' class:backdrop-blur-md={page!=='home'}>
   <slot name='logo'>
     <div class=''>
-      <a href="/" class='flex h-full' class:hidden={page==='home'}>
-        <img src="/asayake_logo.svg" alt="logo" class="logo"/>
+      <a href="{base}/" class='flex h-full' class:hidden={page==='home'}>
+        <img src="{base}/asayake_logo.svg" alt="logo" class="logo"/>
       </a>
     </div>
   </slot>
   
   <div class='flex items-center'>
     <nav class='menu flex items-center' class:text-black={page!=='home'}>
-      <a href="/about" class='nav-item hidden lg:flex' class:active={page==='about'}>
+      <a href="{base}/about" class='nav-item hidden lg:flex' class:active={page==='about'}>
         <span>About</span>
         <span>About</span>
       </a>
-      <a href="/members" class='nav-item hidden lg:flex' class:active={page==='members'}>
+      <a href="{base}/members" class='nav-item hidden lg:flex' class:active={page==='members'}>
         <span>Members</span>
         <span>Members</span>
       </a>
-      <a href="/gallery" class='nav-item hidden lg:flex' class:active={page==='gallery'}>
+      <a href="{base}/gallery" class='nav-item hidden lg:flex' class:active={page==='gallery'}>
         <span>Gallery</span>
         <span>Gallery</span>
       </a>
-      <a href="/concert" class='nav-item hidden lg:flex' class:active={page==='concert'}>
+      <a href="{base}/concert" class='nav-item hidden lg:flex' class:active={page==='concert'}>
         <span>Concert</span>
         <span>Concert</span>
       </a>
-      <a href="/contact" class='nav-item hidden lg:flex' class:active={page==='contact'}>
+      <a href="{base}/contact" class='nav-item hidden lg:flex' class:active={page==='contact'}>
         <span>Contact</span>
         <span>Contact</span>
       </a>
@@ -82,22 +83,22 @@
       <!-- <div bind:this="{hamburgerNav}" class:top-[-1200%]={page!=="home"} class:top-[-120%]={page==="home"}  class='left-0 hamburger-menu-nav w-screen h-screen bg-asa-red rounded-bl-[300px] rounded-br-[300px] ease-out duration-1000'> -->
       <div bind:this="{hamburgerNav}" class='absolute top-[-120vh] left-0 w-screen h-screen bg-asa-red rounded-bl-[300px] rounded-br-[300px] ease-out duration-1000 bg-opacity-95 overflow-y-auto'>
         <div class='flex flex-col pt-20'>
-          <a href="/" class='nav-item hamburgerLink' class:active={page==='home'} tabindex="-1">
+          <a href="{base}/" class='nav-item hamburgerLink' class:active={page==='home'} tabindex="-1">
             <p>Home</p>
           </a>
-          <a href="/about" class='nav-item hamburgerLink' class:active={page==='about'} tabindex="-1">
+          <a href="{base}/about" class='nav-item hamburgerLink' class:active={page==='about'} tabindex="-1">
             <p>About</p>
           </a>
-          <a href="/members" class='nav-item hamburgerLink' class:active={page==='members'} tabindex="-1">
+          <a href="{base}/members" class='nav-item hamburgerLink' class:active={page==='members'} tabindex="-1">
             <p>Members</p>
           </a>
-          <a href="/gallery" class='nav-item hamburgerLink' class:active={page==='gallery'} tabindex="-1">
+          <a href="{base}/gallery" class='nav-item hamburgerLink' class:active={page==='gallery'} tabindex="-1">
             <p>Gallery</p>
           </a>
-          <a href="/concert" class='nav-item hamburgerLink' class:active={page==='concert'} tabindex="-1">
+          <a href="{base}/concert" class='nav-item hamburgerLink' class:active={page==='concert'} tabindex="-1">
             <p>Concert</p>
           </a>
-          <a href="/contact" class='nav-item hamburgerLink' class:active={page==='contact'} tabindex="-1">
+          <a href="{base}/contact" class='nav-item hamburgerLink' class:active={page==='contact'} tabindex="-1">
             <p>Contact</p>
           </a>
         </div>

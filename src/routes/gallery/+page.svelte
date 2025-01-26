@@ -3,14 +3,15 @@
   import Footer from '../Footer.svelte';
   import Cursor from '../Cursor.svelte';
   import { onMount } from 'svelte';
+  import {base } from '$app/paths';
 
   const numberOfImages = 35;
   const numberOfImages2 = 13;
   const totalImages = numberOfImages + numberOfImages2;
 
   let preloadedImg: string[] = [];
-  $: preloadImageUrls = [...Array(numberOfImages).keys()].map((key) => `/gallery/gallery${key+1}.jpg`);
-  $: preloadImageUrls2 = [...Array(numberOfImages2).keys()].map((key) => `/bg/webp/${key+1}.webp`);
+  $: preloadImageUrls = [...Array(numberOfImages).keys()].map((key) => `${base}/gallery/gallery${key+1}.jpg`);
+  $: preloadImageUrls2 = [...Array(numberOfImages2).keys()].map((key) => `${base}/bg/webp/${key+1}.webp`);
   $: preloadedImg = [...preloadImageUrls, ...preloadImageUrls2];
 
   let closeBtn : HTMLElement;

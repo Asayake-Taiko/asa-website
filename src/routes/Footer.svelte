@@ -1,12 +1,16 @@
+<script lang="ts">
+  import { base } from '$app/paths';
+</script>
+
 <footer class='footer'>
   <div class='footer-top'>
     <div class='footer-menu'>
-      <a href="/" class="footer-menu-item">Home</a>
-      <a href="/about" class="footer-menu-item">About</a>
-      <a href="/members" class="footer-menu-item">Members</a>
-      <a href="/gallery" class="footer-menu-item">Gallery</a>
-      <a href="/concert" class="footer-menu-item">Concert</a>
-      <a href="/contact" class="footer-menu-item">Contact</a>
+      <a href="{base}/" class="footer-menu-item">Home</a>
+      <a href="{base}/about" class="footer-menu-item">About</a>
+      <a href="{base}/members" class="footer-menu-item">Members</a>
+      <a href="{base}/gallery" class="footer-menu-item">Gallery</a>
+      <a href="{base}/concert" class="footer-menu-item">Concert</a>
+      <a href="{base}/contact" class="footer-menu-item">Contact</a>
     </div>
     <div class='footer-sns'>
       <a class='footer-sns-ig' target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/asayake_taiko/">
@@ -28,14 +32,13 @@
   </div>
   <div class='footer-bottom'>
     <div class='flex items-center'>
-      <img class='footer-logo' src="/asayake.png" alt="asayake logo" />
+      <img class='footer-logo' src="{base}/asayake.png" alt="asayake logo" />
       <span class='footer-copyright'>©️2023 Asayake Taiko</span>
     </div>
     <div class='footer-email'>
       <span><a href="mailto:asayaketaiko@gmail.com">asayaketaiko@gmail.com</a></span>
     </div>
   </div>
-  
 </footer>
 
 <style lang='scss'>

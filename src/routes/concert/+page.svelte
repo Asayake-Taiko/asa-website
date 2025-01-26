@@ -2,6 +2,7 @@
   import Header from '../Header.svelte';
   import Footer from '../Footer.svelte'
   import Cursor from '../Cursor.svelte'
+  import { base } from '$app/paths';
 
   type PosterType = {
     year: number,
@@ -127,7 +128,7 @@ const handleClick = (e: MouseEvent) => {
           <span class='year'>{concert.year}</span>
         </div>
         <div class='concert-poster max-h-0 overflow-hidden duration-500' class:!max-h-[100vh]={i===0}>
-          <img src="/concerts/webp/poster_{concert.year}.webp" alt="{concert.title}" />
+          <img src="{base}/concerts/webp/poster_{concert.year}.webp" alt="{concert.title}" />
         </div>
       </li>
       {/each}
@@ -135,7 +136,7 @@ const handleClick = (e: MouseEvent) => {
   </nav>
   <div class='right'>
     <div class='concert-poster'>
-      <img src="/concerts/webp/poster_2023.webp" alt="Hazakura" />
+      <img src="{base}/concerts/webp/poster_2023.webp" alt="Hazakura" />
     </div>
   </div>
 </section>

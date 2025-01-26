@@ -2,6 +2,7 @@
     import Cursor from './Cursor.svelte'
     import Header from './Header.svelte'
     import { onMount } from 'svelte'
+    import { base } from '$app/paths';
   
     let mainWrapper: HTMLElement;
     let prevImage = -1;
@@ -10,7 +11,7 @@
     const numberOfImages = 14;
     let behavior: ScrollBehavior = 'smooth';
   
-    $: preloadImageUrls = [...Array(numberOfImages).keys()].map((key) => `/bg/webp/${key+1}.webp`);
+    $: preloadImageUrls = [...Array(numberOfImages).keys()].map((key) => `${base}/bg/webp/${key+1}.webp`);
     $: {
       if(mainWrapper) {
         const prev = document.querySelector(`[data-id="${prevImage+1}"]`) as HTMLElement;

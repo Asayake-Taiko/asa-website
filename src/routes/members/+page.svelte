@@ -1,7 +1,8 @@
 <script lang="ts">
-import Header from '../Header.svelte';
+  import Header from '../Header.svelte';
   import Footer from '../Footer.svelte'
   import Cursor from '../Cursor.svelte'
+  import { base } from '$app/paths';
 
   type AlumniType = {
     year: string,
@@ -575,8 +576,8 @@ import Header from '../Header.svelte';
       <div class='gen-member relative' on:mouseover={handleMouseOver} on:mouseleave={handleMouseLeave} on:click={handleMemberClick}>
         <button class='relative overflow-y-auto' on:focusin={handleFocusIn} on:focusout={handleFocusOut}>
           <div class='h-full'>
-            <img class='member-image' src="/members/{member.gen}/{member.imgs.main}.jpg" alt="{member.name}" />
-            <img class='member-image member-image-alt !hidden' src="/members/{member.gen}/{member.imgs.alt}.jpg" alt="{member.name} alt" />
+            <img class='member-image' src="{base}/members/{member.gen}/{member.imgs.main}.jpg" alt="{member.name}" />
+            <img class='member-image member-image-alt !hidden' src="{base}/members/{member.gen}/{member.imgs.alt}.jpg" alt="{member.name} alt" />
             <div class='member-quote h-full overflow-y-auto !opacity-0 top-[-100%] duration-500 ease'>
               <p>{member.quote}</p>
             </div>
