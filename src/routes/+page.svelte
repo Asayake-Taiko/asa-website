@@ -23,6 +23,7 @@
   
         const isMobile = window.innerHeight > window.innerWidth;
   
+        if(currImage === 0) behavior = 'auto'
         curr.scrollIntoView({behavior: `${behavior}`, block: 'nearest', inline: 'center' })
         const w = window.innerWidth
         if(isMobile && w <= 1023) {
@@ -51,8 +52,14 @@
       const el = e.currentTarget as HTMLElement;
   
       if(el.dataset.name === 'left') {
-        currImage = currImage === 0 ? numberOfImages - 1 : currImage - 1
+        if (currImage === 0) {
+          currImage = numberOfImages - 1;
+          behavior = 'auto'
+        } else {
+          currImage = currImage - 1;
+        }
       } else {
+        if(currImage === numberOfImages - 1) behavior = 'auto'
         currImage = (currImage + 1) % numberOfImages
       }
   
@@ -117,57 +124,55 @@
   </main>
   
   <style lang="scss">
-  .main {
-    left: 20px;
-    bottom: 20px;
-  
-    &-title {
-      .name {
-        font-size: px2rem(60)
+    .main {
+      left: max(20px, 2%);
+      bottom: max(40px, 4%);
+    
+      &-title {
+        .name {
+          font-size: 3.75rem; // 60px
+        }
+        .school {
+          font-size: 1rem; // 16px
+          margin-top: 0.25em; // 4px
+        }
       }
-      .school {
-        font-size: px2rem(16);
-        margin-top: px2em(4, 16);
-      }
-    }
-    .mission {
-      font-size: px2rem(16);
-      width: min(90%, 600px);
-      margin-top: px2em(32, 16);
-    }
-  }
-  
-  .pagination {
-    right: 50px;
-    bottom: 50px;
-  
-    button {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 32px;
-      height: 32px;
-      margin-right: 10px;
-      border-radius: 999px;
-  
-      svg {
-        width: 20px;
-        height: 20px;
+      .mission {
+        font-size: 1rem; // 16px
+        width: min(90%, 600px);
+        margin-top: 1em; // 32px
       }
     }
-  
-    .numbering {
-      & > span:first-child {
-        width: px2em(40, 32);
-        font-size: px2rem(32);
+    
+    .pagination {
+      right: 50px;
+      bottom: 50px;
+    
+      button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 32px;
+        height: 32px;
+        margin-right: 10px;
+        border-radius: 999px;
+    
+        svg {
+          width: 20px;
+          height: 20px;
+        }
       }
-  
-      & > span:last-child {
-        font-size: px2rem(14);
-        color: #eee;
+    
+      .numbering {
+        & > span:first-child {
+          width: 2.5em; // 40px
+          font-size: 2rem; // 32px
+        }
+    
+        & > span:last-child {
+          font-size: 0.875rem; // 14px
+          color: #eee;
+        }
       }
     }
-  }
-  
   </style>
-  
