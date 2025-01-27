@@ -207,7 +207,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: px2rem(64);
+    font-size: 4rem;
     color: #fff;
     font-weight: bold;
     opacity: 0.8;
@@ -216,7 +216,7 @@
   }
 
   .section {
-    margin: px2em(120) px2em(32);
+    margin: 7.5rem 2rem;
     display: flex;
 
     &-title {
@@ -226,7 +226,7 @@
       line-height: 1;
 
       div > h2 {
-        font-size: max(px2rem(40), px2vw(64));
+        font-size: max(2.5rem, 4vw);
         font-weight: 600;
         margin-right: 10px;
       }
@@ -234,11 +234,11 @@
 
     &-content {
       flex: 0.5;
-      font-size: max(16px, px2vw(24));
+      font-size: max(8px, 1.2vw);
       line-height: 1.5;
 
       p {
-        margin-bottom: px2em(20, 24);
+        margin-bottom: 1.25rem;
       }
     }
   }
@@ -271,16 +271,16 @@
       background: linear-gradient(to right, rgba(255,255,255,0), white)
     }
 
-    height: px2vw(300);
+    height: 20vw;
     position: relative;
 
     .image-slide {
       animation: 20s slide infinite linear;
-      width: max(2465px, px2vw(2465));
+      width: max(2465px, 24.65vw);
       
       img {
-        width: max(375px, px2vw(375));
-        height: max(250px, px2vw(250));
+        width: max(375px, 3.75vw);
+        height: max(250px, 2.5vw);
         border-radius: 5px;
       }
     }
@@ -293,9 +293,9 @@
 
     button {
       box-shadow: 1px 1px 5px 0px black;
-      font-size: px2rem(18);
-      width: px2em(200, 18);
-      height: px2em(50, 18);
+      font-size: 1.125rem;
+      width: 12.5rem;
+      height: 3.125rem;
       background-color: #791111;
       color: #fff;
       font-weight: 500;
@@ -326,7 +326,7 @@
     }
     
     &-title {
-      font-size: max(px2rem(40), px2vw(64));
+      font-size: max(2.5rem, 4vw);
       font-weight: 600;
       line-height: 1;
       margin-bottom: 20px;

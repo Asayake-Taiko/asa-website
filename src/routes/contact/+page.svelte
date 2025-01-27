@@ -1,7 +1,6 @@
 <script lang="ts">
   import Header from '../Header.svelte'
   import Footer from '../Footer.svelte'
-  import Modal from '../Modal.svelte';
   //import type { ActionData } from './$types.js';
 
   //Code modal that pops up to confirm email was sent
