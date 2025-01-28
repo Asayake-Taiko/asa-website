@@ -18,6 +18,8 @@ npm run build
 ```
 After that, if you take the files inside the build file and move them into the branch production, github pages will automatically build and deploy the website from there. You may have to set domain name again.
 
+To modify the domain name, you need to login to [porkbuns.com](porkbuns.com) using the account AsayakeTaiko. From there, you should be able to renew, reconfigure the DNS records, and update the domain as need be.
+
 ## About
 Based off https://github.com/rolemadelen/asayake, which was intended to update the old look of the website with a modern design. This repository simply takes the code and prepares it to be deployed on the official Asayake Taiko Website. Jii made most of the designs, I simply added small changes to customize it for the group.
 
