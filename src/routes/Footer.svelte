@@ -41,7 +41,7 @@
   </div>
 </footer>
 
-<style lang='scss'>
+<style lang="scss">
   .footer {
     margin-top: 6.25em;
     width: 100%;
@@ -146,9 +146,12 @@
       }
     }
   }
-  
+
   @media screen and (min-width: 700px) {
     .footer {
+      justify-content: space-between;
+      align-items: center;
+
       &-top, &-bottom {
         padding: 0 2rem;
       }
@@ -159,9 +162,6 @@
 
       &-bottom {
         height: 5em;
-      }
-
-      &-bottom {
         flex-direction: row;
         justify-content: space-between;
 
@@ -170,8 +170,6 @@
         }
       }
 
-      justify-content: space-between;
-      align-items: center;
       &-menu, &-sns {
         width: auto;
         align-items: center;

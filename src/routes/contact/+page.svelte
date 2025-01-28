@@ -42,13 +42,16 @@
       <h2>Donate</h2>
       <p>Asayake Taiko is run on equipment and resources primarily sourced through fundraising and donations. We greatly appreciate any and all contributions, no matter the amount, that goes to the bettering of our team's musical and cultural development.</p>
       <div class='links'>
-        <a class='links-venmo' href="https://venmo.com/Asayake_Taiko">
           <!-- License: MIT. Made by Ionicons: https://github.com/ionic-team/ionicons -->
-          <svg width="25" height="25" viewBox="0 0 512 512" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg">
-            <path d="M444.17,32H70.28C49.85,32,32,46.7,32,66.89V441.6C32,461.91,49.85,480,70.28,480H444.06C464.6,480,480,461.8,480,441.61V66.89C480.12,46.7,464.6,32,444.17,32ZM278,387H174.32L132.75,138.44l90.75-8.62,22,176.87c20.53-33.45,45.88-86,45.88-121.87,0-19.62-3.36-33-8.61-44L365.4,124.1c9.56,15.78,13.86,32,13.86,52.57C379.25,242.17,323.34,327.26,278,387Z"/>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="30" height="30">
+            <path fill="#none" d="M35,42H13c-3.866,0-7-3.134-7-7V13c0-3.866,3.134-7,7-7h22c3.866,0,7,3.134,7,7v22 C42,38.866,38.866,42,35,42z"/>
+            <path fill="#fff" d="M17.5,18.5h14c0.552,0,1-0.448,1-1V15c0-0.552-0.448-1-1-1h-14c-0.552,0-1,0.448-1,1v2.5 C16.5,18.052,16.948,18.5,17.5,18.5z"/>
+            <path fill="#fff" d="M17,34.5h14.5c0.552,0,1-0.448,1-1V31c0-0.552-0.448-1-1-1H17c-0.552,0-1,0.448-1,1v2.5 C16,34.052,16.448,34.5,17,34.5z"/>
+            <path fill="#fff" d="M22.25,11v6c0,0.276,0.224,0.5,0.5,0.5h3.5c0.276,0,0.5-0.224,0.5-0.5v-6c0-0.276-0.224-0.5-0.5-0.5 h-3.5C22.474,10.5,22.25,10.724,22.25,11z"/>
+            <path fill="#fff" d="M22.25,32v6c0,0.276,0.224,0.5,0.5,0.5h3.5c0.276,0,0.5-0.224,0.5-0.5v-6c0-0.276-0.224-0.5-0.5-0.5 h-3.5C22.474,31.5,22.25,31.724,22.25,32z"/>
+            <path fill="#fff" d="M16.578,30.938H22l10.294-12.839c0.178-0.222,0.019-0.552-0.266-0.552H26.5L16.275,30.298 C16.065,30.553,16.247,30.938,16.578,30.938z"/>
           </svg>
-          <span>Venmo</span>
-        </a>
+          <span>asayakezelle@gmail.com</span>
       </div>
     </div>
     <div class='left-section'>
@@ -80,10 +83,10 @@
     <h2>Tryouts</h2>
     <img src="tryouts.jpg" alt="tryouts"/>
     <p><i>Graphics: @jamiektbk</i></p>
-    <p>Auditions are held every fall quarter over the course of five weeks. <i>No prior experience required!</i> If you are interested, please fill out the interest form linked below.</p>
+    <p>If you are interested in joining, auditions are held every fall quarter over the course of five weeks. <i>No prior experience required!</i> They will occur every sunday from 1-4 pm at Stonehenge in Revelle college. Hope to see you there!</p>
     <a class='links-form' target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScIQvWYNV1Up8ABQcgJXOovhZyKd6OWk7Pp56XIM7OYviondw/viewform">
       <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-      <svg fill="#000000" height="25px" width="25px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+      <!-- <svg fill="#000000" height="25px" width="25px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
         viewBox="0 0 492.014 492.014" xml:space="preserve">
       <g id="XMLID_144_">
         <path id="XMLID_151_" d="M339.277,459.566H34.922V32.446h304.354v105.873l32.446-32.447V16.223C371.723,7.264,364.458,0,355.5,0
@@ -105,7 +108,7 @@
           l183.422-183.414c6.489-6.49,10.138-15.295,10.138-24.472C489.54,109.197,485.892,100.392,479.403,93.903z"/>
       </g>
       </svg>
-      <span>Interest Form</span>
+      <span>Interest Form</span> -->
     </a>
   </div>
 </section>
@@ -114,7 +117,7 @@
 
 <style lang="scss">
   .banner-wrapper {
-    padding-top: px2em(80);
+    padding-top: 5em;
   }
   .banner {
     border-top: 1px solid #eee;
@@ -128,7 +131,7 @@
 
     h1 {
       color: #791111;
-      font-size: max(min(64px, px2vw(64)), 50px);
+      font-size: 50px;
       font-weight: bold;
     }
   }
@@ -141,14 +144,14 @@
     justify-content: center;
 
     h2 {
-      font-size: px2rem(24);
+      font-size: 1.5rem;
       font-weight: 600;
     }
     .left {
       width: 100%;
 
       &-section {
-        font-size: px2rem(16);
+        font-size: 1rem;
         line-height: 1.5;
 
         .links {
@@ -157,15 +160,15 @@
           align-items: center;
 
           span {
-            font-size: px2rem(14);
+            font-size: 0.875rem;
             color: #333;
             padding-left: 5px;
             transition: color 0.3s ease;
           }
 
           svg {
-            width: max(25px, px2vw(30));
-            height: max(25px, px2vw(30));
+            width: 30px;
+            height: 30px;
             max-width: 30px;
             max-height: 30px;
             will-change: transform;
@@ -194,13 +197,11 @@
       }
 
       & > div {
-        margin-bottom: px2rem(100);
+        margin-bottom: 6.25rem;
       }
     }
     .right {
       width: 80%;
-      // width: 830px;
-      // margin-right: 223px;
       padding-top: 100px;
       border-top: 1px solid #eee;
 
@@ -228,15 +229,15 @@
           }
         }
         span {
-          font-size: px2rem(14);
+          font-size: 0.875rem;
           color: #333;
           padding-left: 5px;
           transition: color 0.3s ease;
         }
 
         svg {
-          width: max(25px, px2vw(30));
-          height: max(25px, px2vw(30));
+          width: 30px;
+          height: 30px;
           max-width: 30px;
           max-height: 30px;
           will-change: transform;
@@ -251,7 +252,7 @@
     transform: translateX(0);
   }
   to {
-    transform: translateX(max(10px, px2vw(20)));
+    transform: translateX(20px);
   }
 
 }
@@ -288,7 +289,7 @@
 @media screen and (min-width: 900px) {
   .main {
     flex-direction: row;
-    margin: 100px px2vw(32);
+    margin: 100px 2rem;
     justify-content: space-between;
 
     .links {
@@ -303,7 +304,7 @@
       padding-left: 32px;
       border: none;
       border-left: 1px solid #eee;
-      width: min(px2vw(830), 50%);
+      width: min(830px, 50%);
     }
   }
 }
@@ -311,7 +312,7 @@
 @media screen and (min-width: 1000px) {
   .main {
     margin: 100px auto;
-    padding: 0 px2em(32, 16);
+    padding: 0 2em;
   }
 }
 </style>

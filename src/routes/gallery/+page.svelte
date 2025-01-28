@@ -1,7 +1,6 @@
 <script lang="ts">
   import Header from '../Header.svelte';
   import Footer from '../Footer.svelte';
-  import { onMount } from 'svelte';
   import {base } from '$app/paths';
 
   const numberOfImages = 35;
@@ -96,20 +95,20 @@
 <div class="enlarge-section hidden">
   <div>
     <img src="" alt="enlarged" />
-    <button bind:this={closeBtn} tabindex="0" class='close' data-action='close' on:click={handleClick}>
+    <button aria-label="close" bind:this={closeBtn} tabindex="0" class='close' data-action='close' on:click={handleClick}>
       <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect x="0.5" y="0.5" width="34" height="34" rx="9.5" stroke="#EEEEEE"/>
         <path d="M12.2434 9.1001L9.1001 12.2434L10.7052 13.8485L14.6733 17.8835L10.7052 21.8517L9.1001 23.3899L12.2434 26.6001L13.8485 24.995L17.8835 20.96L21.8517 24.995L23.3899 26.6001L26.6001 23.3899L24.995 21.8517L20.96 17.8835L24.995 13.8485L26.6001 12.2434L23.3899 9.1001L21.8517 10.7052L17.8835 14.6733L13.8485 10.7052L12.2434 9.1001Z" fill="#EEEEEE"/>
       </svg>
     </button>
     <div class='nav'>
-      <button class='left' data-action='left' on:click={handleClick}>
+      <button aria-label="left" class='left' data-action='left' on:click={handleClick}>
         <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="0.5" y="0.5" width="49" height="49" rx="9.5" stroke="#EEEEEE"/>
           <path d="M29.5455 11L15 25.5L29.5455 40L35 34.5625L25.9091 25.5L35 16.4375L29.5455 11Z" fill="#EEEEEE"/>
         </svg>
       </button>
-      <button class='right' data-action='right' on:click={handleClick}>
+      <button aria-label="right" class='right' data-action='right' on:click={handleClick}>
         <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="0.5" y="0.5" width="49" height="49" rx="9.5" stroke="#EEEEEE"/>
           <path d="M20.4545 11L35 25.5L20.4545 40L15 34.5625L24.0909 25.5L15 16.4375L20.4545 11Z" fill="#EEEEEE"/>
@@ -136,7 +135,7 @@
 
     h1 {
       color: #791111;
-      font-size: max(min(64px, px2vw(64)), 50px);
+      font-size: min(64px, 3em);
       font-weight: bold;
     }
   }
@@ -148,7 +147,7 @@
 
   .note {
     display: block;
-    font-size: px2rem(16);
+    font-size: 1rem;
     margin: 50px auto 25px;
     color: #777;
   }
@@ -160,7 +159,7 @@
     align-items: center;
 
     &-wrapper {
-      margin: px2vw(100) 32px;
+      margin: 0px min(32px, 2%);
     }
 
     &-image {
@@ -168,8 +167,8 @@
       height: 100;
       position: relative;
       overflow: hidden;
-      margin-right: px2vw(10);
-      margin-bottom: px2vw(20);
+      margin-right: 5px;
+      margin-bottom: 10px;
       will-change: transform;
       transition: transform 0.5s ease;
       
@@ -207,9 +206,9 @@
     }
 
     .close, .left, .right {
-      top: min(-25px, px2vw(-50));
-      width: max(20px, px2vw(35));
-      height: max(20px, px2vw(35));
+      top: min(-25px, 5%);
+      width: min(35px, 5%);
+      height: min(35px, 5%);
       position: fixed;
       z-index: 1001;
     }
@@ -269,7 +268,6 @@
   .gallery-image {
     width: 32%;
 
-
     &:hover {
       transform: scale(1.2);
     }
@@ -278,7 +276,6 @@
 @media screen and (min-width: 1000px) {
   .gallery-image {
     width: 19%;
-
 
     &:hover {
       transform: scale(1.3);
