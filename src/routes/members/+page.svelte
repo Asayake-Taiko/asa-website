@@ -2,9 +2,9 @@
   import Header from '../Header.svelte';
   import Footer from '../Footer.svelte'
   import { base } from '$app/paths';
-  import { currentMembers, alumni } from './members';
+  import { gen24, gen23, gen22, gen21, alumni } from './members';
 
-  let displayMembers = currentMembers;
+  let displayMembers = [gen24, gen23, gen22, gen21];
 
   const handleMouseOver = (e: MouseEvent) => {
     const target = (e.currentTarget as HTMLElement).children as HTMLCollectionOf<HTMLElement>;
@@ -39,7 +39,6 @@
     target.classList.toggle('active');
 
     if(selectedGen === 'alumni') {
-      console.log('here');
       document.querySelector('.gen-members')?.classList.add('!hidden');
       document.querySelector('.alumni')?.classList.remove('!hidden');
       return;
@@ -49,15 +48,15 @@
     document.querySelector('.alumni')?.classList.add('!hidden');
 
     if(selectedGen === 'all') {
-      displayMembers = currentMembers;
-    }else if (selectedGen === '22') {
-      displayMembers = currentMembers.filter(m => m.gen === "Gen 22");
+      displayMembers = [gen24, gen23, gen22, gen21];
+    }else if (selectedGen === '24') {
+      displayMembers = [gen24];
+    } else if (selectedGen === '23') {
+      displayMembers = [gen23];
+    } else if (selectedGen === '22') {
+      displayMembers = [gen22];
     } else if (selectedGen === '21') {
-      displayMembers = currentMembers.filter(m => m.gen === "Gen 21");
-    } else if (selectedGen === '20') {
-      displayMembers = currentMembers.filter(m => m.gen === "Gen 20");
-    } else if (selectedGen === '19') {
-      displayMembers = currentMembers.filter(m => m.gen === "Gen 19");
+      displayMembers = [gen21];
     }
   }
 
@@ -91,17 +90,17 @@
       <li data-gen="all" on:click={handleClick} class='active'>
         <button>All</button>
       </li>
+      <li data-gen="24" on:click={handleClick} >
+        <button>Generation 24</button>
+      </li>
+      <li data-gen="23" on:click={handleClick} >
+        <button>Generation 23</button>
+      </li>
       <li data-gen="22" on:click={handleClick} >
         <button>Generation 22</button>
       </li>
       <li data-gen="21" on:click={handleClick} >
         <button>Generation 21</button>
-      </li>
-      <li data-gen="20" on:click={handleClick} >
-        <button>Generation 20</button>
-      </li>
-      <li data-gen="19" on:click={handleClick} >
-        <button>Generation 19</button>
       </li>
       <li data-gen="alumni" on:click={handleClick} >
         <button>Alumni</button>
@@ -122,7 +121,8 @@
             <img class='member-image' src="{base}/members/{member.gen}/{member.imgs.main}.jpg" alt="{member.name}" />
             <img class='member-image member-image-alt !hidden' src="{base}/members/{member.gen}/{member.imgs.alt}.jpg" alt="{member.name} alt" />
             <div class='member-quote h-full overflow-y-auto !opacity-0 top-[-100%] duration-500 ease'>
-              <p>{member.quote}</p>
+                <p>{member.question}</p>
+                <p style="margin-top: 1em;">{member.answer}</p>
             </div>
           </div>
         </button>

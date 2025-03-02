@@ -8,15 +8,15 @@ type Member = {
   name: string,
   gen: string,
   major: string,
-  fav: string,
-  quote: string,
+  question: string,
+  answer: string,
   imgs: {
     main: string,
     alt: string
   }
 }
 
-type MemberType = {
+type Generation = {
   gen: string,
   members: Member[]
 }
@@ -134,333 +134,334 @@ export const alumni: AlumniType[] = [
     }
   ];
 
-export const currentMembers: MemberType[] = [
+export const gen24: Generation = {
+  gen: "Gen 24",
+  members: [
     {
-      gen: "Gen 22",
-      members: [
-        {
-          name: "Ashley Omiya",
-          gen: "gen22",
-          major: "No Answer",
-          fav: "No Answer",
-          quote: "No Answer",
-          imgs: {
-            main: "ashley_omiya_main",
-            alt: "ashley_omiya_alt",
-          }
-        },
-        {
-          name: "Jamie Shou",
-          gen: "gen22",
-          major: "No Answer",
-          fav: "No Answer",
-          quote: "No Answer",
-          imgs: {
-            main: "jamie_shou_main",
-            alt: "jamie_shou_alt"
-          }
-        },
-        {
-          name: "Kristina Diep",
-          gen: "gen22",
-          major: "No Answer",
-          fav: "No Answer",
-          quote: "No Answer",
-          imgs: {
-            main: "kristina_diep_main",
-            alt: "kristina_diep_alt"
-          }
-        },
-        {
-          name: "Kane Li",
-          gen: "gen22",
-          major: "Computer Science",
-          fav: "Taifuu",
-          quote: "Nice to see you here! My name is Kane Li and I am a freshman at UC San Diego majoring in Computer Science. While I had no prior musical nor taiko experience prior to joining Asayake Taiko, I fell in love with the style and personality of the Taiko community ever since attending my first workshop. It has been a great opportunity to bond, get in touch with my musical side, and even get some exercise! Outside of Taiko, I enjoy playing games such as Brawl Stars and Minecraft, watching shows/films, exercise, and reading manga. Fun fact: I have a missing tooth, it just never grew.",
-          imgs: {
-            main: "kane_li_main",
-            alt: "kane_li_alt"
-          }
-        },
-        {
-          name: "Katelyn Miyasaki",
-          gen: "gen22",
-          major: "Bioengineering",
-          fav: "No Answer",
-          quote: "Katelyn is a grad student studying bioengineering. She often saw taiko performances growing up and is excited to be performing herself! She wanted to put her favorite Asa song in this bio, but couldn’t pick just one. Besides taiko, Katelyn likes sports anime, making playlists, and typography.",
-          imgs: {
-            main: "katelyn_miyasaki_main",
-            alt: "katelyn_miyasaki_alt"
-          }
-        },
-        {
-          name: "Kate Villadelgado",
-          gen: "gen22",
-          major: "Japanese Studies",
-          fav: "No Answer",
-          quote: "YO! My name is Kateleen (Kate) Villadelgado. I’m a freshman at UCSD and my major is Japanese Studies. I've always loved the energy of taiko but this is my first time actually playing taiko! It's been really fun learning new songs and especially hanging out with the Asa Fam. Even though it's my first year here in Asayake Taiko, I already feel like I belong. Other than taiko, I really enjoy drawing fictional characters, trying (and failing) to 100% complete all Yakuza games, and singing badly. Also, my favorite food is curry (Coco Ichibanya go crazy). All in all, I’m here to live a good life, not a long one. We gamin’ frfr",
-          imgs: {
-            main: "kateleen_villadelgado_main",
-            alt: "kateleen_villadelgado_alt"
-          }
-        },
-        {
-          name: "Kylie Yanagi",
-          gen: "gen22",
-          major: "No Answer",
-          fav: "No Answer",
-          quote: "No Answer",
-          imgs: {
-            main: "kylie_yanagi_main",
-            alt: "kylie_yanagi_alt"
-          }
-        },
-        {
-          name: "Matthew Alegrado",
-          gen: "gen22",
-          major: "Electrical Engineering",
-          fav: "No Answer",
-          quote: "Hello, I'm Matthew and I'm a 2nd year Electrical Engineering major. I was born in Chula Vista, CA. This is my first year in Asa and my first year playing taiko.I joined Asa because I liked doing percussion in high school and I found out about Asa after a friend of mine joined a similar group. I liked the environment during tryouts with the way everyone helps each other and had fun together.",
-          imgs: {
-            main: "matthew_alegrado_main",
-            alt: "matthew_alegrado_alt"
-          }
-        },
-        {
-          name: "Micah Esmino",
-          gen: "gen22",
-          major: "Cognitive and Behavorial Neuroscience",
-          fav: "No Answer",
-          quote: "Hi! I'm Micah Esmino, a first-year at Revelle college at UC San Diego. I'm currently studying cognitive and behavioral neuroscience. I've had previous experience in music--I was in choir for my entire life--but this is the first time I've ever done taiko! Outside of Asa, I enjoy singing, journaling, scrapbooking, and playing video games! Asa has a very welcoming energy with everyone in it; I love being around every member because of their fun and loving energy for what they do and those around them!!",
-          imgs: {
-            main: "micah_esmino_main",
-            alt: "micah_esmino_alt"
-          }
-        },
-        {
-          name: "Timothy Hsiao",
-          gen: "gen22",
-          major: "Bioinformatics",
-          fav: "No Answer",
-          quote: "HI! I am Timothy Hsiao, and I am a first year Bioinformatics major at UC San Diego. This is my first year playing taiko, and I am having a great time so far! In addition to taiko, I also play piano, cello, and guitar, and I am learning violin and fue!",
-          imgs: {
-            main: "timothy_hsiao_main",
-            alt: "timothy_hsiao_alt"
-          }
-        }
-      ]
+      name: "Alison Yi-Li",
+      gen: "gen24",
+      major: "No Answer",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "alison_li_main",
+        alt: "alison_li_alt"
+      }
     },
     {
-      gen: "Gen 21",
-      members: [
-        {
-          name: "Kade Kaneshiro",
-          gen: "gen21",
-          major: "Structural Engineering",
-          fav: "Ishi",
-          quote: "It reminds me of retreat!",
-          imgs: {
-            main: "kade_kaneshiro_main",
-            alt: "kade_kaneshiro_alt"
-          }
-        },
-        {
-          name: "Aleck Adriano",
-          gen: "gen21",
-          major: "ICAM Music",
-          fav: "Jikan",
-          quote: "I like Jikan because of it is dense with notes, it has cool rhythms, and it is very fun to play.",
-          imgs: {
-            main: "aleck_adriano_main",
-            alt: "aleck_adriano_alt"
-          }
-        },
-        {
-          name: "Saam Hamidi",
-          gen: "gen21",
-          major: "Physics",
-          fav: "Ishi",
-          quote: "Ishi means rock in Japanese. Ishi sounds a lot like ushi (ushi means cow in Japanese); I like ushi.",
-          imgs: {
-            main: "saam_hamidi_main",
-            alt: "saam_hamidi_alt"
-          }
-        },
-        {
-          name: "Keiko Dickens",
-          gen: "gen21",
-          major: "International Business and Linguistics",
-          fav: "Ishi",
-          quote: "Ishi means rock.",
-          imgs: {
-            main: "keiko_dickens_main",
-            alt: "keiko_dickens_alt"
-          }
-        },
-        {
-          name: "Kai Morita",
-          gen: "gen21",
-          major: "Data Science",
-          fav: "Kamaitachi",
-          quote: "maya + helicopter",
-          imgs: {
-            main: "kai_morita_main",
-            alt: "kai_morita_alt"
-          }
-        },
-        {
-          name: "Eric Leung",
-          gen: "gen21",
-          major: "Mechanical Engineering",
-          fav: "Kamaitachi",
-          quote: "Bachi go spin spin, looks cool.",
-          imgs: {
-            main: "eric_leung_main",
-            alt: "eric_leung_alt"
-          }
-        },
-        {
-          name: "Darryl Tayag",
-          gen: "gen21",
-          major: "Computer Science",
-          fav: "Ishi",
-          quote: "The song has a ROCK solid composition with different phrases and fun movements. It also serves as a great sobriety test. Rocks totally rock!",
-          imgs: {
-            main: "darryl_tayag_main",
-            alt: "darryl_tayag_alt"
-          }
-        },
-        {
-          name: "Ethan Satoda",
-          gen: "gen21",
-          major: "Neurobiology",
-          fav: "Jack Bazaar",
-          quote: "It has a lot of dynamic movements and requires a lot of technical skill so you feel like a god when you play it correctly.",
-          imgs: {
-            main: "ethan_satoda_main",
-            alt: "ethan_satoda_alt"
-          }
-        },
-        {
-          name: "Truman Koh",
-          gen: "gen21",
-          major: "General Biology",
-          fav: "Awakening",
-          quote: "This song is full of opportunities to make your cohort laugh through one's silly expressions.",
-          imgs: {
-            main: "truman_koh_main",
-            alt: "truman_koh_alt"
-          }
-        },
-        {
-          name: "Erika Munekata",
-          gen: "gen21",
-          major: "Undecided",
-          fav: "Kodomo/Awakening",
-          quote: "I love songs where you interact with fellow members and coordinate something together. Very fun.",
-          imgs: {
-            main: "erika_munekata_main",
-            alt: "erika_munekata_alt"
-          }
-        },
-        {
-          name: "Andrew Meckert",
-          gen: "gen21",
-          major: "Chemical Engineering",
-          fav: "Jikan-Gire",
-          quote: "I love how it uses switching time signatures to make it's signature 'running out of time' feel. I also love it's choreography.",
-          imgs: {
-            main: "andrew_meckert_main",
-            alt: "andrew_meckert_alt"
-          }
-        }
-      ]
+      name: "Angus Yick",
+      gen: "gen24",
+      major: "No Answer",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "angus_yick_main",
+        alt: "angus_yick_alt"
+      }
     },
     {
-      gen: "Gen 20",
-      members: [
-        {
-          name: "Maya Wong",
-          gen: "gen20",
-          major: "International Studies - History",
-          fav: "Tanoshii / Kamaitachi",
-          quote: "Tanoshii is always fun to both play and watch because it just exerts lots of positive bright energy that makes me very happy! For Kamaitachi, I like it because just feel a lot cooler than I am in real life when I'm playing the song (lol) because of its complexity and serious ominous vibes.",
-          imgs: {
-            main: "maya_wong_main",
-            alt: "maya_wong_alt"
-          }
-        },
-        {
-          name: "Katelyn Chu",
-          gen: "gen20",
-          major: "Environmental Systems",
-          fav: "Tanoshii",
-          quote: "It has such an infectious energy; the first time I watched it being performed I smiled the whole way through. Getting to perform it on stage was thrilling!",
-          imgs: {
-            main: "katelyn_chu_main",
-            alt: "katelyn_chu_alt"
-          }
-        },
-        {
-          name: "Jenna Heskin",
-          gen: "gen20",
-          major: "Anthropology",
-          fav: "Kamaitachi",
-          quote: "It's really fun and energetic and I really like hearing all the separate pieces come together when it's played.",
-          imgs: {
-            main: "jenna_heskin_main",
-            alt: "jenna_heskin_alt"
-          }
-        },
-        {
-          name: "William Chu",
-          gen: "gen20",
-          major: "Bioinformatics",
-          fav: "Taifuu",
-          quote: "Hit drum fast and hard. It's very cool.",
-          imgs: {
-            main: "william_chu_main",
-            alt: "william_chu_alt"
-          }
-        },
-        {
-          name: "Christa Cheng",
-          gen: "gen20",
-          major: "Political Science: International Relations",
-          fav: "Tanoshii",
-          quote: "I actually used to strongly dislike this song, but it's grown on me. I really enjoy seeing the happiness it brings to both the audience and players, and it's fun to watch and play.",
-          imgs: {
-            main: "christa_cheng_main",
-            alt: "christa_cheng_alt"
-          }
-        }
-      ]
+      name: "chris Truong",
+      gen: "gen24",
+      major: "No Answer",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "chris_truong_main",
+        alt: "chris_truong_alt"
+      }
     },
     {
-      gen: "Gen 19",
-      members: [
-        {
-          name: "Nikki Saito",
-          gen: "gen19",
-          major: "Neurobiology",
-          fav: "Tanoshii",
-          quote: "I love the happy, fun energy of the song!",
-          imgs: {
-            main: "nikki_saito_main",
-            alt: "nikki_saito_alt"
-          }
-        },
-        {
-          name: "Aunice Valdez",
-          gen: "gen19",
-          major: "Psychology w/ Spec. Developmental Psychology",
-          fav: "Kodomo",
-          quote: "I love being silly with other asa members while playing. I genuinely laugh every time we do the movements!",
-          imgs: {
-            main: "aunice_valdez_main",
-            alt: "aunice_valdez_alt"
-          }
-        }
-      ]
+      name: "Jacob Ivan Camino",
+      gen: "gen24",
+      major: "No Answer",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "jacob_camino_main",
+        alt: "jacob_camino_alt"
+      }
+    },
+    {
+      name: "Lauren Bryan",
+      gen: "gen24",
+      major: "No Answer",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "lauren_bryan_main",
+        alt: "lauren_bryan_alt",
+      }
+    },
+    {
+      name: "Maira Mendez",
+      gen: "gen24",
+      major: "No Answer",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "maira_mendez_main",
+        alt: "maira_mendez_alt"
+      }
+    },
+    {
+      name: "Matthew Lam",
+      gen: "gen24",
+      major: "No Answer",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "matthew_lam_main",
+        alt: "matthew_lam_alt"
+      }
+    },
+    {
+      name: "Zoe Nguyen",
+      gen: "gen24",
+      major: "No Answer",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "zoe_nguyen_main",
+        alt: "zoe_nguyen_alt"
+      }
     }
   ]
+}
+
+export const gen23: Generation = {
+  gen: "Gen 23",
+  members: [
+    {
+      name: "Aidan Beaver",
+      gen: "gen23",
+      major: "No Answer",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "aidan_beaver_main",
+        alt: "aidan_beaver_alt"
+      }
+    },
+    {
+      name: "Aiden Ortega",
+      gen: "gen23",
+      major: "No Answer",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "aiden_ortega_main",
+        alt: "aiden_ortega_alt"
+      }
+    },
+    {
+      name: "Jackson Nagata",
+      gen: "gen23",
+      major: "No Answer",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "jackson_nagata_main",
+        alt: "jackson_nagata_alt"
+      }
+    },
+    {
+      name: "Karl Gorski",
+      gen: "gen23",
+      major: "No Answer",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "karl_gorski_main",
+        alt: "karl_gorski_alt"
+      }
+    },
+    {
+      name: "Maiya Kuida-Osumi",
+      gen: "gen23",
+      major: "No Answer",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "maiya_kuida-osumi_main",
+        alt: "maiya_kuida-osumi_alt",
+      }
+    },
+    {
+      name: "Megumi Leung",
+      gen: "gen23",
+      major: "No Answer",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "megumi_leung_main",
+        alt: "megumi_leung_alt"
+      }
+    },
+    {
+      name: "Neela Kolte",
+      gen: "gen23",
+      major: "No Answer",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "neela_kolte_main",
+        alt: "neela_kolte_alt"
+      }
+    },
+    {
+      name: "Sebastian Ryo-Willis Sugiyama",
+      gen: "gen23",
+      major: "No Answer",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "sebastian_sugiyama_main",
+        alt: "sebastian_sugiyama_alt"
+      }
+    }
+  ]
+}
+
+export const gen22: Generation = {
+  gen: "Gen 22",
+  members: [
+    {
+      name: "Jamie Shou",
+      gen: "gen22",
+      major: "No Answer",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "jamie_shou_main",
+        alt: "jamie_shou_alt"
+      }
+    },
+    {
+      name: "Kristina Diep",
+      gen: "gen22",
+      major: "No Answer",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "kristina_diep_main",
+        alt: "kristina_diep_alt"
+      }
+    },
+    {
+      name: "Kane Li",
+      gen: "gen22",
+      major: "Computer Science",
+      question: "Taifuu",
+      answer: "Nice to see you here! My name is Kane Li and I am a freshman at UC San Diego majoring in Computer Science. While I had no prior musical nor taiko experience prior to joining Asayake Taiko, I fell in love with the style and personality of the Taiko community ever since attending my first workshop. It has been a great opportunity to bond, get in touch with my musical side, and even get some exercise! Outside of Taiko, I enjoy playing games such as Brawl Stars and Minecraft, watching shows/films, exercise, and reading manga. Fun fact: I have a missing tooth, it just never grew.",
+      imgs: {
+        main: "kane_li_main",
+        alt: "kane_li_alt"
+      }
+    },
+    {
+      name: "Katelyn Miyasaki",
+      gen: "gen22",
+      major: "Bioengineering",
+      question: "No Answer",
+      answer: "Katelyn is a grad student studying bioengineering. She often saw taiko performances growing up and is excited to be performing herself! She wanted to put her questionorite Asa song in this bio, but couldn’t pick just one. Besides taiko, Katelyn likes sports anime, making playlists, and typography.",
+      imgs: {
+        main: "katelyn_miyasaki_main",
+        alt: "katelyn_miyasaki_alt"
+      }
+    },
+    {
+      name: "Kylie Yanagi",
+      gen: "gen22",
+      major: "No Answer",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "kylie_yanagi_main",
+        alt: "kylie_yanagi_alt"
+      }
+    },
+    {
+      name: "Matthew Alegrado",
+      gen: "gen22",
+      major: "Electrical Engineering",
+      question: "No Answer",
+      answer: "Hello, I'm Matthew and I'm a 2nd year Electrical Engineering major. I was born in Chula Vista, CA. This is my first year in Asa and my first year playing taiko.I joined Asa because I liked doing percussion in high school and I found out about Asa after a friend of mine joined a similar group. I liked the environment during tryouts with the way everyone helps each other and had fun together.",
+      imgs: {
+        main: "matthew_alegrado_main",
+        alt: "matthew_alegrado_alt"
+      }
+    },
+    {
+      name: "Micah Esmino",
+      gen: "gen22",
+      major: "Cognitive and Behavorial Neuroscience",
+      question: "No Answer",
+      answer: "Hi! I'm Micah Esmino, a first-year at Revelle college at UC San Diego. I'm currently studying cognitive and behavioral neuroscience. I've had previous experience in music--I was in choir for my entire life--but this is the first time I've ever done taiko! Outside of Asa, I enjoy singing, journaling, scrapbooking, and playing video games! Asa has a very welcoming energy with everyone in it; I love being around every member because of their fun and loving energy for what they do and those around them!!",
+      imgs: {
+        main: "micah_esmino_main",
+        alt: "micah_esmino_alt"
+      }
+    },
+    {
+      name: "Timothy Hsiao",
+      gen: "gen22",
+      major: "Bioinformatics",
+      question: "No Answer",
+      answer: "HI! I am Timothy Hsiao, and I am a first year Bioinformatics major at UC San Diego. This is my first year playing taiko, and I am having a great time so far! In addition to taiko, I also play piano, cello, and guitar, and I am learning violin and fue!",
+      imgs: {
+        main: "timothy_hsiao_main",
+        alt: "timothy_hsiao_alt"
+      }
+    }
+  ]
+}
+
+export const gen21: Generation = {
+  gen: "Gen 21",
+  members: [
+    {
+      name: "Kade Kaneshiro",
+      gen: "gen21",
+      major: "Structural Engineering",
+      question: "Ishi",
+      answer: "It reminds me of retreat!",
+      imgs: {
+        main: "kade_kaneshiro_main",
+        alt: "kade_kaneshiro_alt"
+      }
+    },
+    {
+      name: "Saam Hamidi",
+      gen: "gen21",
+      major: "Physics",
+      question: "Ishi",
+      answer: "Ishi means rock in Japanese. Ishi sounds a lot like ushi (ushi means cow in Japanese); I like ushi.",
+      imgs: {
+        main: "saam_hamidi_main",
+        alt: "saam_hamidi_alt"
+      }
+    },
+    {
+      name: "Eric Leung",
+      gen: "gen21",
+      major: "Mechanical Engineering",
+      question: "Kamaitachi",
+      answer: "Bachi go spin spin, looks cool.",
+      imgs: {
+        main: "eric_leung_main",
+        alt: "eric_leung_alt"
+      }
+    },
+    {
+      name: "Erika Munekata",
+      gen: "gen21",
+      major: "Undecided",
+      question: "Kodomo/Awakening",
+      answer: "I love songs where you interact with fellow members and coordinate something together. Very fun.",
+      imgs: {
+        main: "erika_munekata_main",
+        alt: "erika_munekata_alt"
+      }
+    },
+  ]
+}
