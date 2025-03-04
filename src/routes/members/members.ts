@@ -140,9 +140,9 @@ export const gen24: Generation = {
     {
       name: "Alison Yi-Li",
       gen: "gen24",
-      major: "No Answer",
-      question: "",
-      answer: "",
+      major: "Psychology",
+      question: "What is your favorite taiko song?",
+      answer: "Awakening, because I like the funny dance in awakening and the transfer of energy.",
       imgs: {
         main: "alison_li_main",
         alt: "alison_li_alt"
@@ -151,9 +151,9 @@ export const gen24: Generation = {
     {
       name: "Angus Yick",
       gen: "gen24",
-      major: "No Answer",
-      question: "",
-      answer: "",
+      major: "Computer Science",
+      question: "What is your favorite taiko event?",
+      answer: "Retreat.",
       imgs: {
         main: "angus_yick_main",
         alt: "angus_yick_alt"
@@ -162,9 +162,9 @@ export const gen24: Generation = {
     {
       name: "chris Truong",
       gen: "gen24",
-      major: "No Answer",
-      question: "",
-      answer: "",
+      major: "Human Biology",
+      question: "What is your favorite taiko song?",
+      answer: "Get real, because I need to get real.",
       imgs: {
         main: "chris_truong_main",
         alt: "chris_truong_alt"
@@ -173,9 +173,9 @@ export const gen24: Generation = {
     {
       name: "Jacob Ivan Camino",
       gen: "gen24",
-      major: "No Answer",
-      question: "",
-      answer: "",
+      major: "Cogs spec. Design & Interaction",
+      question: "What is your favorite taiko song?",
+      answer: "Awakening, because everytime I play the song I feel a lot more awake and energetic.",
       imgs: {
         main: "jacob_camino_main",
         alt: "jacob_camino_alt"
@@ -184,9 +184,9 @@ export const gen24: Generation = {
     {
       name: "Lauren Bryan",
       gen: "gen24",
-      major: "No Answer",
-      question: "",
-      answer: "",
+      major: "Psychology spec. Human Health",
+      question: "What is your favorite taiko song?",
+      answer: "Kodomo because 3 of my Asa parents play it and I love the energy they put into it.",
       imgs: {
         main: "lauren_bryan_main",
         alt: "lauren_bryan_alt",
@@ -195,9 +195,9 @@ export const gen24: Generation = {
     {
       name: "Maira Mendez",
       gen: "gen24",
-      major: "No Answer",
-      question: "",
-      answer: "",
+      major: "Geosciences",
+      question: "What is your favorite taiko song?",
+      answer: "Ishi because I love rocks.",
       imgs: {
         main: "maira_mendez_main",
         alt: "maira_mendez_alt"
@@ -206,9 +206,9 @@ export const gen24: Generation = {
     {
       name: "Matthew Lam",
       gen: "gen24",
-      major: "No Answer",
-      question: "",
-      answer: "",
+      major: "Undeclared",
+      question: "What is your favorite taiko song?",
+      answer: "Arashi because it is very fast-paced, it feels very fun to play, and is dynamic",
       imgs: {
         main: "matthew_lam_main",
         alt: "matthew_lam_alt"
@@ -217,9 +217,9 @@ export const gen24: Generation = {
     {
       name: "Zoe Nguyen",
       gen: "gen24",
-      major: "No Answer",
-      question: "",
-      answer: "",
+      major: "Anthropology",
+      question: "Give me something quotable",
+      answer: "If fish were sea, then I would be something else. Idk.",
       imgs: {
         main: "zoe_nguyen_main",
         alt: "zoe_nguyen_alt"
@@ -234,9 +234,9 @@ export const gen23: Generation = {
     {
       name: "Aidan Beaver",
       gen: "gen23",
-      major: "No Answer",
-      question: "",
-      answer: "",
+      major: "International Business",
+      question: "What is your favorite taiko song?",
+      answer: "Enbu because my taiko mom Maya made it.",
       imgs: {
         main: "aidan_beaver_main",
         alt: "aidan_beaver_alt"
@@ -245,9 +245,9 @@ export const gen23: Generation = {
     {
       name: "Aiden Ortega",
       gen: "gen23",
-      major: "No Answer",
-      question: "",
-      answer: "",
+      major: "Phamacological Chemistry",
+      question: "What is your favorite taiko song?",
+      answer: "Kamai because the solos and movements. Ting ting ting ting.",
       imgs: {
         main: "aiden_ortega_main",
         alt: "aiden_ortega_alt"
@@ -256,9 +256,9 @@ export const gen23: Generation = {
     {
       name: "Jackson Nagata",
       gen: "gen23",
-      major: "No Answer",
-      question: "",
-      answer: "",
+      major: "Theatre",
+      question: "What is your favorite kiai?",
+      answer: "Sup!",
       imgs: {
         main: "jackson_nagata_main",
         alt: "jackson_nagata_alt"
@@ -267,9 +267,9 @@ export const gen23: Generation = {
     {
       name: "Karl Gorski",
       gen: "gen23",
-      major: "No Answer",
-      question: "",
-      answer: "",
+      major: "Joint Math and Econ",
+      question: "What is your favorite taiko song?",
+      answer: "Omiyage. Absolute cinema.",
       imgs: {
         main: "karl_gorski_main",
         alt: "karl_gorski_alt"
@@ -278,7 +278,7 @@ export const gen23: Generation = {
     {
       name: "Maiya Kuida-Osumi",
       gen: "gen23",
-      major: "No Answer",
+      major: "Urban studies and planning",
       question: "",
       answer: "",
       imgs: {
@@ -289,9 +289,9 @@ export const gen23: Generation = {
     {
       name: "Megumi Leung",
       gen: "gen23",
-      major: "No Answer",
-      question: "",
-      answer: "",
+      major: "Molecular and Cell biology",
+      question: "What is your favorite taiko song?",
+      answer: "Kodomo-zakari because-",
       imgs: {
         main: "megumi_leung_main",
         alt: "megumi_leung_alt"
@@ -300,7 +300,7 @@ export const gen23: Generation = {
     {
       name: "Neela Kolte",
       gen: "gen23",
-      major: "No Answer",
+      major: "Cogs spec. Design & Interaction",
       question: "",
       answer: "",
       imgs: {
@@ -309,11 +309,11 @@ export const gen23: Generation = {
       }
     },
     {
-      name: "Sebastian Ryo-Willis Sugiyama",
+      name: "Sebastian Willis Sugiyama",
       gen: "gen23",
-      major: "No Answer",
-      question: "",
-      answer: "",
+      major: "Applied Math",
+      question: "What is your favorite asa event?",
+      answer: "Gingerbread competition because we don't lose.",
       imgs: {
         main: "sebastian_sugiyama_main",
         alt: "sebastian_sugiyama_alt"
@@ -328,9 +328,9 @@ export const gen22: Generation = {
     {
       name: "Jamie Shou",
       gen: "gen22",
-      major: "No Answer",
-      question: "",
-      answer: "",
+      major: "Cogs Spec. Neuroscience",
+      question: "What is your favorite taiko song?",
+      answer: "Get real because it's so groovy and because there's a lot of alternating hands. You are with the beat.",
       imgs: {
         main: "jamie_shou_main",
         alt: "jamie_shou_alt"
@@ -339,7 +339,7 @@ export const gen22: Generation = {
     {
       name: "Kristina Diep",
       gen: "gen22",
-      major: "No Answer",
+      major: "Computer Science",
       question: "",
       answer: "",
       imgs: {
@@ -351,8 +351,8 @@ export const gen22: Generation = {
       name: "Kane Li",
       gen: "gen22",
       major: "Computer Science",
-      question: "Taifuu",
-      answer: "Nice to see you here! My name is Kane Li and I am a freshman at UC San Diego majoring in Computer Science. While I had no prior musical nor taiko experience prior to joining Asayake Taiko, I fell in love with the style and personality of the Taiko community ever since attending my first workshop. It has been a great opportunity to bond, get in touch with my musical side, and even get some exercise! Outside of Taiko, I enjoy playing games such as Brawl Stars and Minecraft, watching shows/films, exercise, and reading manga. Fun fact: I have a missing tooth, it just never grew.",
+      question: "What is your favorite asa event?",
+      answer: "Tryouts, because I get to share my love for taiko with new members.",
       imgs: {
         main: "kane_li_main",
         alt: "kane_li_alt"
@@ -362,8 +362,8 @@ export const gen22: Generation = {
       name: "Katelyn Miyasaki",
       gen: "gen22",
       major: "Bioengineering",
-      question: "No Answer",
-      answer: "Katelyn is a grad student studying bioengineering. She often saw taiko performances growing up and is excited to be performing herself! She wanted to put her questionorite Asa song in this bio, but couldn’t pick just one. Besides taiko, Katelyn likes sports anime, making playlists, and typography.",
+      question: "What is your favorite taiko song?",
+      answer: "Moving forward and I'm going to 100% it.",
       imgs: {
         main: "katelyn_miyasaki_main",
         alt: "katelyn_miyasaki_alt"
@@ -372,9 +372,9 @@ export const gen22: Generation = {
     {
       name: "Kylie Yanagi",
       gen: "gen22",
-      major: "No Answer",
-      question: "",
-      answer: "",
+      major: "Neurobiology",
+      question: "What is your favorite taiko song?",
+      answer: "Handtagonism because it is the perfect amount of challenging and visually interesting.",
       imgs: {
         main: "kylie_yanagi_main",
         alt: "kylie_yanagi_alt"
@@ -384,8 +384,8 @@ export const gen22: Generation = {
       name: "Matthew Alegrado",
       gen: "gen22",
       major: "Electrical Engineering",
-      question: "No Answer",
-      answer: "Hello, I'm Matthew and I'm a 2nd year Electrical Engineering major. I was born in Chula Vista, CA. This is my first year in Asa and my first year playing taiko.I joined Asa because I liked doing percussion in high school and I found out about Asa after a friend of mine joined a similar group. I liked the environment during tryouts with the way everyone helps each other and had fun together.",
+      question: "What is your favorite taiko song?",
+      answer: "Jikan. 'Why?' Jikan.",
       imgs: {
         main: "matthew_alegrado_main",
         alt: "matthew_alegrado_alt"
@@ -395,8 +395,8 @@ export const gen22: Generation = {
       name: "Micah Esmino",
       gen: "gen22",
       major: "Cognitive and Behavorial Neuroscience",
-      question: "No Answer",
-      answer: "Hi! I'm Micah Esmino, a first-year at Revelle college at UC San Diego. I'm currently studying cognitive and behavioral neuroscience. I've had previous experience in music--I was in choir for my entire life--but this is the first time I've ever done taiko! Outside of Asa, I enjoy singing, journaling, scrapbooking, and playing video games! Asa has a very welcoming energy with everyone in it; I love being around every member because of their fun and loving energy for what they do and those around them!!",
+      question: "What is your favorite taiko song?",
+      answer: "Jikan-gire because it's so fun to play and I get to look cool and kiai.",
       imgs: {
         main: "micah_esmino_main",
         alt: "micah_esmino_alt"
@@ -406,8 +406,8 @@ export const gen22: Generation = {
       name: "Timothy Hsiao",
       gen: "gen22",
       major: "Bioinformatics",
-      question: "No Answer",
-      answer: "HI! I am Timothy Hsiao, and I am a first year Bioinformatics major at UC San Diego. This is my first year playing taiko, and I am having a great time so far! In addition to taiko, I also play piano, cello, and guitar, and I am learning violin and fue!",
+      question: "What is your favorite taiko song?",
+      answer: "Jack bazaar. Because I am also teaching it.",
       imgs: {
         main: "timothy_hsiao_main",
         alt: "timothy_hsiao_alt"
@@ -423,8 +423,8 @@ export const gen21: Generation = {
       name: "Kade Kaneshiro",
       gen: "gen21",
       major: "Structural Engineering",
-      question: "Ishi",
-      answer: "It reminds me of retreat!",
+      question: "Give me something quotable",
+      answer: "As a wise man once told me, keep on taikoing on.",
       imgs: {
         main: "kade_kaneshiro_main",
         alt: "kade_kaneshiro_alt"
@@ -434,8 +434,8 @@ export const gen21: Generation = {
       name: "Saam Hamidi",
       gen: "gen21",
       major: "Physics",
-      question: "Ishi",
-      answer: "Ishi means rock in Japanese. Ishi sounds a lot like ushi (ushi means cow in Japanese); I like ushi.",
+      question: "What is your favorite kiai?",
+      answer: "Hrgh!",
       imgs: {
         main: "saam_hamidi_main",
         alt: "saam_hamidi_alt"
@@ -445,8 +445,8 @@ export const gen21: Generation = {
       name: "Eric Leung",
       gen: "gen21",
       major: "Mechanical Engineering",
-      question: "Kamaitachi",
-      answer: "Bachi go spin spin, looks cool.",
+      question: "What is your favorite taiko song?",
+      answer: "Jikan Gire.",
       imgs: {
         main: "eric_leung_main",
         alt: "eric_leung_alt"
@@ -455,9 +455,9 @@ export const gen21: Generation = {
     {
       name: "Erika Munekata",
       gen: "gen21",
-      major: "Undecided",
-      question: "Kodomo/Awakening",
-      answer: "I love songs where you interact with fellow members and coordinate something together. Very fun.",
+      major: "Bioengineering Biosystems",
+      question: "What is your favorite kiai?",
+      answer: "Ermmmmmm. Uhhhhhhhhh. sa-sa-Saaa?",
       imgs: {
         main: "erika_munekata_main",
         alt: "erika_munekata_alt"
