@@ -81,8 +81,8 @@
   </div>
   <div class='right'>
     <h2>Tryouts</h2>
-    <img src="tryouts.jpg" alt="tryouts"/>
-    <p><i>Graphics: @jamiektbk</i></p>
+    <img src="tryouts.webp" alt="tryouts"/>
+    <p><i>Graphics: @nka2m</i></p>
     <p>If you are interested in joining, auditions are held every fall quarter over the course of five weeks. <i>No prior experience required!</i> They will occur every sunday from 1-4 pm at Stonehenge in Revelle college. Hope to see you there!</p>
     <a class='links-form' target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScIQvWYNV1Up8ABQcgJXOovhZyKd6OWk7Pp56XIM7OYviondw/viewform">
       <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->

@@ -6,6 +6,10 @@ export type PosterType = {
 
 export const concerts: PosterType[] = [
     {
+        year: 2025,
+        title: 'Kizuna',
+    },
+    {
         year: 2024,
         title: 'Tsubasa'
     },

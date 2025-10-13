@@ -254,17 +254,6 @@ export const gen23: Generation = {
       }
     },
     {
-      name: "Jackson Nagata",
-      gen: "gen23",
-      major: "Theatre",
-      question: "What is your favorite kiai?",
-      answer: "Sup!",
-      imgs: {
-        main: "jackson_nagata_main",
-        alt: "jackson_nagata_alt"
-      }
-    },
-    {
       name: "Karl Gorski",
       gen: "gen23",
       major: "Joint Math and Econ",
@@ -337,17 +326,6 @@ export const gen22: Generation = {
       }
     },
     {
-      name: "Kristina Diep",
-      gen: "gen22",
-      major: "Computer Science",
-      question: "",
-      answer: "",
-      imgs: {
-        main: "kristina_diep_main",
-        alt: "kristina_diep_alt"
-      }
-    },
-    {
       name: "Kane Li",
       gen: "gen22",
       major: "Computer Science",
@@ -356,28 +334,6 @@ export const gen22: Generation = {
       imgs: {
         main: "kane_li_main",
         alt: "kane_li_alt"
-      }
-    },
-    {
-      name: "Katelyn Miyasaki",
-      gen: "gen22",
-      major: "Bioengineering",
-      question: "What is your favorite taiko song?",
-      answer: "Moving forward and I'm going to 100% it.",
-      imgs: {
-        main: "katelyn_miyasaki_main",
-        alt: "katelyn_miyasaki_alt"
-      }
-    },
-    {
-      name: "Kylie Yanagi",
-      gen: "gen22",
-      major: "Neurobiology",
-      question: "What is your favorite taiko song?",
-      answer: "Handtagonism because it is the perfect amount of challenging and visually interesting.",
-      imgs: {
-        main: "kylie_yanagi_main",
-        alt: "kylie_yanagi_alt"
       }
     },
     {
@@ -413,55 +369,5 @@ export const gen22: Generation = {
         alt: "timothy_hsiao_alt"
       }
     }
-  ]
-}
-
-export const gen21: Generation = {
-  gen: "Gen 21",
-  members: [
-    {
-      name: "Kade Kaneshiro",
-      gen: "gen21",
-      major: "Structural Engineering",
-      question: "Give me something quotable",
-      answer: "As a wise man once told me, keep on taikoing on.",
-      imgs: {
-        main: "kade_kaneshiro_main",
-        alt: "kade_kaneshiro_alt"
-      }
-    },
-    {
-      name: "Saam Hamidi",
-      gen: "gen21",
-      major: "Physics",
-      question: "What is your favorite kiai?",
-      answer: "Hrgh!",
-      imgs: {
-        main: "saam_hamidi_main",
-        alt: "saam_hamidi_alt"
-      }
-    },
-    {
-      name: "Eric Leung",
-      gen: "gen21",
-      major: "Mechanical Engineering",
-      question: "What is your favorite taiko song?",
-      answer: "Jikan Gire.",
-      imgs: {
-        main: "eric_leung_main",
-        alt: "eric_leung_alt"
-      }
-    },
-    {
-      name: "Erika Munekata",
-      gen: "gen21",
-      major: "Bioengineering Biosystems",
-      question: "What is your favorite kiai?",
-      answer: "Ermmmmmm. Uhhhhhhhhh. sa-sa-Saaa?",
-      imgs: {
-        main: "erika_munekata_main",
-        alt: "erika_munekata_alt"
-      }
-    },
   ]
 }
