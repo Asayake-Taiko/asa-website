@@ -2,9 +2,9 @@
   import Header from '../Header.svelte';
   import Footer from '../Footer.svelte'
   import { base } from '$app/paths';
-  import { gen24, gen23, gen22, alumni } from './members';
+  import { gen25, gen24, gen23, gen22, alumni } from './members';
 
-  let displayMembers = [gen24, gen23, gen22];
+  let displayMembers = [gen25, gen24, gen23, gen22];
 
   const handleMouseOver = (e: MouseEvent) => {
     const target = (e.currentTarget as HTMLElement).children as HTMLCollectionOf<HTMLElement>;
@@ -48,8 +48,10 @@
     document.querySelector('.alumni')?.classList.add('!hidden');
 
     if(selectedGen === 'all') {
-      displayMembers = [gen24, gen23, gen22];
-    }else if (selectedGen === '24') {
+      displayMembers = [gen25, gen24, gen23, gen22];
+    } else if (selectedGen === '25') {
+      displayMembers = [gen25];
+    } else if (selectedGen === '24') {
       displayMembers = [gen24];
     } else if (selectedGen === '23') {
       displayMembers = [gen23];
@@ -86,6 +88,9 @@
     <ul class='gen-menu'>
       <li data-gen="all" on:click={handleClick} class='active'>
         <button>All</button>
+      </li>
+      <li data-gen="25" on:click={handleClick} >
+        <button>Generation 25</button>
       </li>
       <li data-gen="24" on:click={handleClick} >
         <button>Generation 24</button>

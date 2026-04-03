@@ -139,6 +139,133 @@ export const alumni: AlumniType[] = [
   }
 ];
 
+export const gen25: Generation = {
+  gen: "Gen 24",
+  members: [
+    {
+      name: "Akari Oh",
+      gen: "gen25",
+      major: "Mathematics - Computer Science",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "akari_oh_main",
+        alt: "akari_oh_alt"
+      }
+    },
+    {
+      name: "Alex Tumakay",
+      gen: "gen25",
+      major: "Neurobiology",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "alex_tumakay_main",
+        alt: "alex_tumakay_alt"
+      }
+    },
+    {
+      name: "Amanda Petrillo",
+      gen: "gen25",
+      major: "Phamacological Chemistry",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "amanda_petrillo_main",
+        alt: "amanda_petrillo_alt"
+      }
+    },
+    {
+      name: "Giancarlo Ramirez",
+      gen: "gen25",
+      major: "Computer Engineering",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "giancarlo_ramirez_main",
+        alt: "giancarlo_ramirez_alt"
+      }
+    },
+    {
+      name: "Julia Chen",
+      gen: "gen25",
+      major: "Microbiology",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "julia_chen_main",
+        alt: "julia_chen_alt"
+      }
+    },
+    {
+      name: "Kumiko Komori",
+      gen: "gen25",
+      major: "Computer Science",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "kumiko_komori_main",
+        alt: "kumiko_komori_alt"
+      }
+    },
+    {
+      name: "Luthien Wang",
+      gen: "gen25",
+      major: "Japanese Studies & ICAM",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "luthien_wang_main",
+        alt: "luthien_wang_alt"
+      }
+    },
+    {
+      name: "Madeline Maeda",
+      gen: "gen25",
+      major: "Literature",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "madeline_maeda_main",
+        alt: "madeline_maeda_alt"
+      }
+    },
+    {
+      name: "Stella Kim",
+      gen: "gen25",
+      major: "Marine Biology",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "stella_kim_main",
+        alt: "stella_kim_alt"
+      }
+    },
+    {
+      name: "Stephanie Xu",
+      gen: "gen25",
+      major: "Computer Science",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "stephanie_xu_main",
+        alt: "stephanie_xu_alt"
+      }
+    },
+    {
+      name: "Vincenzo Iachella",
+      gen: "gen25",
+      major: "Electrical Engineering",
+      question: "",
+      answer: "",
+      imgs: {
+        main: "vincenzo_iachella_main",
+        alt: "vincenzo_iachella_alt"
+      }
+    }
+  ]
+}
+
 export const gen24: Generation = {
   gen: "Gen 24",
   members: [
@@ -162,28 +289,6 @@ export const gen24: Generation = {
       imgs: {
         main: "angus_yick_main",
         alt: "angus_yick_alt"
-      }
-    },
-    {
-      name: "chris Truong",
-      gen: "gen24",
-      major: "Human Biology",
-      question: "What is your favorite taiko song?",
-      answer: "Get real, because I need to get real.",
-      imgs: {
-        main: "chris_truong_main",
-        alt: "chris_truong_alt"
-      }
-    },
-    {
-      name: "Jacob Ivan Camino",
-      gen: "gen24",
-      major: "Cogs spec. Design & Interaction",
-      question: "What is your favorite taiko song?",
-      answer: "Awakening, because everytime I play the song I feel a lot more awake and energetic.",
-      imgs: {
-        main: "jacob_camino_main",
-        alt: "jacob_camino_alt"
       }
     },
     {
