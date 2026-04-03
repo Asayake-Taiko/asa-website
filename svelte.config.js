@@ -8,8 +8,14 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		// statically generate the app
-		adapter: adapter(),
+		// statically generate the app into dist
+		adapter: adapter({
+			pages: 'dist',
+			assets: 'dist',
+			fallback: undefined,
+			precompress: false,
+			strict: true
+		}),
 		// in github pages make the base path the repository name
 		paths: {
             base: process.env.NODE_ENV === 'production' ? '/asa-website' : '',
