@@ -44,7 +44,7 @@ export const concerts: PosterType[] = [
   },
   {
     year: 2017,
-    title: "A Tale as Old as time",
+    title: "A Tale as Old as Time",
   },
   {
     year: 2016,
