@@ -135,7 +135,7 @@ export const alumni: AlumniType[] = [
   {
     year: '2025-2026',
     image: true,
-    members: ['Matthew Alegrado', 'Micah Esmino', 'Timothy Hsiao', 'Kane Li', 'Jamie Shou', 'Aidan Beaver', 'Karl Gorski', 'Neela Kolte', 'Maiya Kuida-Osumi', 'Megumi Leung', 'Aiden Ortega', 'Sebastian Willis Sugiyama', 'Lauren Bryan', 'Matthew Lam', 'Maira Mendez', 'Zoe Nguyen', 'Angus Yick', 'Alison Yi Li', 'Stella Jua Kim', 'Alex Tumakay', 'Giancarlo Ramirez', 'Akari Oh', 'Madeline Maeda', 'Julia Chen', 'Kumiko May Komori', 'Stephanie Xu', 'Luthien Wang', 'Amanda Petrillo', 'Vincenzo Lachella']
+    members: ['Matthew Alegrado', 'Micah Esmino', 'Timothy Hsiao', 'Kane Li', 'Jamie Shou', 'Aidan Beaver', 'Karl Gorski', 'Neela Kolte', 'Maiya Kuida-Osumi', 'Megumi Leung', 'Aiden Ortega', 'Sebastian Willis Sugiyama', 'Lauren Bryan', 'Matthew Lam', 'Maira Mendez', 'Zoe Nguyen', 'Angus Yick', 'Alison Yi Li', 'Stella Jua Kim', 'Alex Tumakay', 'Giancarlo Ramirez', 'Akari Oh', 'Madeline Maeda', 'Julia Chen', 'Kumiko May Komori', 'Stephanie Xu', 'Luthien Wang', 'Amanda Petrillo', 'Vincenzo Iachella']
   }
 ];
 
