@@ -5,6 +5,11 @@
   import { gen25, gen24, gen23, gen22, alumni } from './members';
 
   let displayMembers = [gen25, gen24, gen23, gen22];
+  let selectedAlumniYear = '2003-2004';
+
+  const handleAlumniYearChange = (e: Event) => {
+    selectedAlumniYear = (e.currentTarget as HTMLSelectElement).value;
+  }
 
   const handleMouseOver = (e: MouseEvent) => {
     const target = (e.currentTarget as HTMLElement).children as HTMLCollectionOf<HTMLElement>;
@@ -134,22 +139,25 @@
     {/each}
   </div>
   <div class='!hidden alumni'>
-    {#each alumni as alum} 
+    <select class='alumni-year-select' value={selectedAlumniYear} on:change={handleAlumniYearChange}>
+      {#each alumni as alum}
+        <option value={alum.year}>{alum.year}</option>
+      {/each}
+    </select>
+    {#each alumni.filter((alum) => alum.year === selectedAlumniYear) as alum}
       <div class='alum'>
         <div class='alum-title'>
           {alum.year}
         </div>
-        <!--
-        {#if alum.image}
-          <img src="members/alumni/{alum.year}.jpg" alt="{alum.year}" />
-        {/if}
-        -->
         <!-- <div class='grid grid-cols-3'> -->
         <div class='alum-names'>
-          {#each alum.members.sort() as member} 
+          {#each alum.members.sort() as member}
           <div class='alum-name'>{member}</div>
           {/each}
         </div>
+        {#if alum.image}
+          <img class='alum-image' src="{base}/members/alumni/{alum.year}.jpg" alt="{alum.year}" />
+        {/if}
       </div>
     {/each}
   </div>
@@ -292,6 +300,17 @@
   }
 
   .alumni {
+    .alumni-year-select {
+      display: block;
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #791111;
+      border: 1px solid #eee;
+      border-radius: 5px;
+      padding: 0.5em 1em;
+      margin-bottom: 2em;
+    }
+
     .alum {
       margin-bottom: 76px;
     }
@@ -307,6 +326,14 @@
       font-size: 1rem;
       border-bottom: 1px solid #eee;
       margin-bottom: 0.625em;
+    }
+
+    .alum-image {
+      display: block;
+      width: 100%;
+      max-width: 700px;
+      border-radius: 5px;
+      margin: 2em 60px;
     }
   }
 

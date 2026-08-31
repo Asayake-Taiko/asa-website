@@ -124,12 +124,12 @@ export const alumni: AlumniType[] = [
   },
   {
     year: '2023-2024',
-    image: true,
+    image: false,
     members: ['Karl Gorski', 'Megumi Leung', 'Neela Kolte', 'Sebastian Willis Sugiyama', 'Jackson Nagata', 'Aiden Ortega', 'Maiya Kuida-Osumi', 'Aidan Beaver', 'William Chu', 'Kane Li', 'Timothy Hsiao', 'Truman Koh', 'Andrew Meckert', 'Matthew Alegrado', 'Jamie Shou', 'Micah Esmino', 'Kylie Yanagi', 'Kristina “Kat” Diep', 'Katelyn Chu', 'Ethan Satoda', 'Eric Leung', 'Katelyn Miyasaki', 'Erika Munekata', 'Christa Cheng', 'Maya Wong', 'Kade Kaneshiro', 'Jenna Heskin', 'Saam Hamidi']
   },
   {
     year: '2024-2025',
-    image: true,
+    image: false,
     members: ['Zoe Nguyen', 'Lauren Bryan', 'Jacob Ivan Camino', 'Matthew Lam', 'Angus Yick', 'Alison Yi Li', 'Chris Truong', 'Maira Mendez', 'Karl Gorski', 'Megumi Leung', 'Neela Kolte', 'Sebastian Willis Sugiyama', 'Jackson Nagata', 'Aiden Ortega', 'Maiya Kuida-Osumi', 'Aidan Beaver', 'Kane Li', 'Timothy Hsiao', 'Matthew Alegrado', 'Jamie Shou', 'Micah Esmino', 'Kylie Yanagi', 'Kristina “Kat” Diep', 'Eric Leung', 'Katelyn Miyasaki', 'Erika Munekata', 'Kade Kaneshiro', 'Saam Hamidi']
   },
   {

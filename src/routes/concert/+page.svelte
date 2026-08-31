@@ -222,7 +222,7 @@
     }
     .concert-menu {
       &-item {
-        width: 70%;
+        width: 80%;
         margin: 0;
 
         & > div:first-of-type {
