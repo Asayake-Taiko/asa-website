@@ -129,7 +129,7 @@ export const alumni: AlumniType[] = [
   },
   {
     year: '2024-2025',
-    image: false,
+    image: true,
     members: ['Zoe Nguyen', 'Lauren Bryan', 'Jacob Ivan Camino', 'Matthew Lam', 'Angus Yick', 'Alison Yi Li', 'Chris Truong', 'Maira Mendez', 'Karl Gorski', 'Megumi Leung', 'Neela Kolte', 'Sebastian Willis Sugiyama', 'Jackson Nagata', 'Aiden Ortega', 'Maiya Kuida-Osumi', 'Aidan Beaver', 'Kane Li', 'Timothy Hsiao', 'Matthew Alegrado', 'Jamie Shou', 'Micah Esmino', 'Kylie Yanagi', 'Kristina “Kat” Diep', 'Eric Leung', 'Katelyn Miyasaki', 'Erika Munekata', 'Kade Kaneshiro', 'Saam Hamidi']
   },
   {
