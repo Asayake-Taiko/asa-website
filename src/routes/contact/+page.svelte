@@ -81,10 +81,10 @@
   </div>
   <div class='right'>
     <h2>Tryouts</h2>
-    <img src="tryouts.webp" alt="tryouts"/>
+    <img src="tryouts.jpg" alt="tryouts"/>
     <p><i>Graphics: @nka2m</i></p>
-    <p>If you are interested in joining, auditions are held every fall quarter over the course of five weeks. <i>No prior experience required!</i> They will occur every sunday from 1-4 pm at Stonehenge in Revelle college. Hope to see you there!</p>
-    <a class='links-form' target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScIQvWYNV1Up8ABQcgJXOovhZyKd6OWk7Pp56XIM7OYviondw/viewform">
+    <p>If you are interested in joining, auditions are held every fall quarter over the course of five weeks. <i>No prior experience required!</i> They will occur every sunday from 2-5 pm at Stonehenge in Revelle college. Hope to see you there!</p>
+    <!-- <a class='links-form' target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScIQvWYNV1Up8ABQcgJXOovhZyKd6OWk7Pp56XIM7OYviondw/viewform"> -->
       <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
       <!-- <svg fill="#000000" height="25px" width="25px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
         viewBox="0 0 492.014 492.014" xml:space="preserve">
@@ -109,7 +109,7 @@
       </g>
       </svg>
       <span>Interest Form</span> -->
-    </a>
+    <!-- </a> -->
   </div>
 </section>
 
